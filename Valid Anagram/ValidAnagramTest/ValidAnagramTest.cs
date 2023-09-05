@@ -22,6 +22,7 @@ namespace ValidAnagramTest
             string s = "rat", t = "cat";
 
             Assert.IsFalse(solution.IsAnagram(s, t));
+
         }
     }
 }
