@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Anagram", "Valid Anagram\Valid Anagram.csproj", "{CD008E38-4050-4BC2-9721-78CE4062C8F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagramTest", "ValidAnagramTest\ValidAnagramTest.csproj", "{46A114FB-3DFB-477E-9C3C-58DB35216728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CD008E38-4050-4BC2-9721-78CE4062C8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD008E38-4050-4BC2-9721-78CE4062C8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD008E38-4050-4BC2-9721-78CE4062C8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A114FB-3DFB-477E-9C3C-58DB35216728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A114FB-3DFB-477E-9C3C-58DB35216728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A114FB-3DFB-477E-9C3C-58DB35216728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A114FB-3DFB-477E-9C3C-58DB35216728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
