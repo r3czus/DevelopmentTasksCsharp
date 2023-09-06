@@ -1,0 +1,8 @@
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\bin\Debug\GroupAnagrams.exe.config
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\bin\Debug\GroupAnagrams.exe
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\bin\Debug\GroupAnagrams.pdb
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\obj\Debug\GroupAnagrams.csproj.AssemblyReference.cache
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\obj\Debug\GroupAnagrams.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\obj\Debug\GroupAnagrams.csproj.CoreCompileInputs.cache
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\obj\Debug\GroupAnagrams.exe
+C:\Users\Jannu\OneDrive\Documents\GitHub\DevelopmentTasksCsharp\GroupAnagrams\GroupAnagrams\obj\Debug\GroupAnagrams.pdb
