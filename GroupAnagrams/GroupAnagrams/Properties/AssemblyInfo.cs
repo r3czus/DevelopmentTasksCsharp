@@ -25,7 +25,7 @@ using System.Runtime.InteropServices;
 // Informacje o wersji zestawu zawierają następujące cztery wartości:
 //
 //      Wersja główna
-//      Wersja pomocnicza
+//      Wersja indexofArray
 //      Numer kompilacji
 //      Poprawka
 //

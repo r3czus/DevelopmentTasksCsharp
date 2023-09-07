@@ -12,8 +12,14 @@ namespace GroupAnagrams
         static void Main(string[] args)
         {
              ArrayList arrayList= new ArrayList();
-             ArrayList pomocnicza = new ArrayList();
-            
+             ArrayList indexofArray = new ArrayList();
+             ArrayList valueArray = new ArrayList();
+             ArrayList lastArray= new ArrayList();  
+            int counter = 0;
+             
+            IList<IList<string>> lista = new List<IList<string>>();
+
+
             string[] strs = new string[]
             {
                 "eat","tea","tan","ate","nat","bat"
@@ -27,23 +33,46 @@ namespace GroupAnagrams
             }
             for (int i = 0; i < arrayList.Count; i++)
             {
+                if(valueArray.Count!= 0)
+                {
+                    for (int k = 0; k < valueArray.Count; k++)
+                    {
+                        int value = (int)valueArray[k];
+                        lastArray.Add(strs[value]);
+                    }
+                    for(int m=0; m< lastArray.Count; m++)
+                    {
+                        Console.WriteLine(lastArray[m]+"   LastArray");
+                    }
+                   // lista[counter].Add(lastArray);
+                }
                 Console.WriteLine("\t");
                for(int j =0; j<arrayList.Count; j++)
                 {
-                    if (arrayList[i].Equals(arrayList[j])  )
+
+                    if (arrayList[i].Equals(arrayList[j]) && !indexofArray.Contains(j) )
                     {
-                        Console.WriteLine(arrayList[j]);
-                        pomocnicza.Add(arrayList[i]);
-                        
+                        indexofArray.Add(j);
+                        valueArray.Add(j);
+
                     }
                     else
                         continue;
-                        //Console.WriteLine(arrayList[j]+"to nie to ");
+                        
                 }
+
                 
                 }
-            Console.ReadLine();
+            for (int i = 0; i < indexofArray.Count; i++)
+            {
+                Console.WriteLine(indexofArray[i]);
+            }
 
+            for (int i = 0; i < lista.Count; i++)
+            {
+                Console.WriteLine(lista[i]);
+            }
+              Console.ReadLine();
             }
 
           
